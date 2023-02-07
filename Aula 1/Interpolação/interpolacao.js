@@ -9,8 +9,14 @@ document.write(`<br>${num1} + ${num2} = ${resp}`);
 resp = num1 - num2;
 document.write(`<br>${num1} - ${num2} = ${resp}`);
 
-resp = num1 * num2;
+// resp = num1 * num2;
 document.write(`<br>${num1} * ${num2} = ${num1 * num2}`);
 
-resp = num1 / num2;
+// resp = num1 / num2;
 document.write(`<br>${num1} / ${num2} = ${num1 / num2}`);
+
+document.write(`<br>${num1} / ${num2} = ${parseInt(num1 / num2)}`);
+
+document.write(`<br>${num1} % ${num2} = ${parseInt(num1 % num2)}`); // Operador de módulo (mod): %.
+
+document.write(`<br>${num1} ** ${num2} = ${parseInt(num1 ** num2)}`);

@@ -22,3 +22,14 @@ function responder(){
   document.write(`<br>Idade que terá em 2050 se nasceu até ${dataFinal}:<br>${idadeFuturo}.<br>`);
   document.write(`<br>Idade que terá em 2050 se nasceu depois de ${dataFinal}:<br>${idadeFuturo - 1}.`);
 }
+
+
+// ----- Resolução Professor ------
+
+var anoNacimento, anoAtual;
+
+anoNacimento = parseInt(prompt("Informe o ano de nascimento: ", "ano de nascimento"));
+anoAtual = parseInt(prompt("Informe o ano atual: ", "ano atual"));
+
+document.write(`<br> Idade em ${anoAtual}: ${anoAtual - anoNacimento} anos.`);
+document.write(`<br> Idade em 2050: ${2050 - anoNacimento} anos.`);

@@ -15,3 +15,11 @@ function resultados(){
     document.write(`<br>O valor da área é: ${area.toFixed(2)}<br>`);
     document.write(`<br>O valor da volume é: ${volume.toFixed(2)}`);
 }
+
+// ----- Resolução Professor ------
+
+var raio = parseFloat(prompt("Informe o raio: ", ""));
+
+document.write(`<br> Comprimento = ${2 * Math.PI * raio} <br>`);
+document.write(`<br> Área = ${Math.PI * Math.pow(raio, 2)} <br>`);
+document.write(`<br> Volume = ${3/4 * Math.PI * Math.pow(raio, 3)}`);

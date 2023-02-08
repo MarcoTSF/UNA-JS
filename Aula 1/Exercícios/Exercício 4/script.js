@@ -9,3 +9,12 @@ function media(){
     
     document.write(`A média aritmética das notas informadas é: ${resultado}.`);
 }
+
+// ----- Resolução Professor ------
+
+var nota1 = parseFloat(prompt("Informe a primeira nota: ", "")),
+nota2 = parseFloat(prompt("Informe a segunda nota: ", "")),
+nota3 = parseFloat(prompt("Informe a terceira nota: ", "")),
+media = (nota1 + nota2 + nota3) / 3;
+    
+document.write(`<br> média = (${nota1} + ${nota2} + ${nota3}) / 3 = ${media}`);

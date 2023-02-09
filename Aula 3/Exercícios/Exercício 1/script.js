@@ -32,7 +32,7 @@ while (confirmacao.toLowerCase() == 's' || confirmacao.toLowerCase() == 'sim') {
     "Notas de R$ 10,00: " + notas10 + "\n" + 
     "Notas de R$ 5,00: " + notas5 + "\n" + 
     "Notas de R$ 2,00: " + notas2 + "\n" + 
-    "Notas de R$ 1,00: " + troco);
+    "Moedas de R$ 1,00: " + troco);
   }
   else {
     document.getElementById("resultado").innerHTML = "A quantia paga é insuficiente para realizar a compra.";

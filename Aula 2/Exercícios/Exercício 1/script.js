@@ -30,9 +30,9 @@ function calculateChange() {
         change = change - (notes2 * 2);
         result += "Notas de R$ 2,00: " + notes2 + "<br>";
 
-        var notes1 = Math.floor(change / 1);
-        change = change - (notes1 * 1);
-        result += "Notas de R$ 1,00: " + notes1 + "<br>";
+        var moeda1 = Math.floor(change / 1);
+        change = change - (moeda1 * 1);
+        result += "Moedas de R$ 1,00: " + moeda1 + "<br>";
     }
 
     document.getElementById("result").innerHTML = result;
@@ -76,7 +76,7 @@ if (valorCompra <= valorPago) {
         Notas de R$ 10,00: ${notas10} <br>
         Notas de R$ 5,00: ${notas5} <br>
         Notas de R$ 2,00: ${notas2} <br>
-        Notas de R$ 1,00: ${troco} <br>
+        Moedas de R$ 1,00: ${troco} <br>
     `);
 }
 else {

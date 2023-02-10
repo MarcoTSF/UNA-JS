@@ -7,6 +7,7 @@ function calculateAverage() {
         num = parseFloat(prompt("Informe o número " + i + ":"));
         sum += num;
     }
+
     let average = sum / quantity;
     
     document.getElementById("result").innerHTML = "A média dos números informados é: " + average;

@@ -12,3 +12,19 @@ function calculateAverage() {
     
     document.getElementById("result").innerHTML = "A média dos números informados é: " + average;
 }
+
+
+// ----------- Correção do Professor --------------
+
+
+var num, soma = 0, contador = 0, resp, confirmacao;
+
+do{
+    num = parseFloat(prompt("Informe o número:", ""));
+    soma += num;
+    contador++; 
+}while(confirm("Deseja informar outro número?"));
+
+resp = soma / contador;
+alert("Média: " + resp);
+window.location.assign('https://www.google.com/');
